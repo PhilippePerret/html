@@ -2,13 +2,25 @@
 
 Encode/Décode les entités HTML dans un fichier ou les fichiers d'un dossier en ligne de commande.
 
+`encode.rb` :
+
+    é => &eacute;
+
+`decode.rb` :
+
+    &eacute; => é
+
 ##Usage
 
 * S'assurer que `encode.rb` et `decode.rb` sont exécutable&nbsp;;
 * Se placer dans ce dossier&nbsp;;
 * Jouer la commande&nbsp;:
 
-$ ./encode.rb path/to/file/or/folder
+        $ ./encode.rb path/to/file/or/folder
+
+##Pré-requis
+
+Régler le BOM en entête des fichiers `encode.rb` et `decode.rb` (dans l'idéal, mettre `#!/urs/bin/env ruby`).
 
 ##Options
 
