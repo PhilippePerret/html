@@ -79,6 +79,7 @@ def analyze_arg_as_option arg
       case arg
       when 'verbose'  then ['v', nil]
       when 'kill'     then ['k', nil]
+      when 'ext'      then arg.split('=')
       else [nil, nil]
       end
   else
