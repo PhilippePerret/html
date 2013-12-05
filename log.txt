@@ -1,0 +1,4 @@
+=== 05 12 2013 - 10:23 ===
+
+Extension filter: rb,html,txt
+-> File: ./test/textes/texte.txt
