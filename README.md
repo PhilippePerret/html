@@ -20,7 +20,7 @@ Encode/Décode les entités HTML dans un fichier ou les fichiers d'un dossier en
 
 ##Pré-requis
 
-Régler le BOM en entête des fichiers `encode.rb` et `decode.rb` (dans l'idéal, mettre `#!/urs/bin/env ruby`).
+Régler le BOM en entête des fichiers `encode.rb` et `decode.rb` (dans l'idéal, mettre `#!/usr/bin/env ruby`).
 
 ##Options
 
