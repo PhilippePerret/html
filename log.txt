@@ -1,4 +1,62 @@
-=== 05 12 2013 - 10:23 ===
+=== ENCODE/DECODE HTML 05 12 2013 - 11:24 ===
 
-Extension filter: rb,html,txt
--> File: ./test/textes/texte.txt
+OPTIONS : {:destination_is_folder=>false, :extensions=>nil, :verbose=>true, :file_list=>nil, :deep=>true, :original_file=>"./data/aide", :kill=>true, :destination_file=>nil}
+-> Treat file: ./data/aide/application/aide-en.html
+-> Treat file: ./data/aide/application/aide-fr.html
+-> Treat file: ./data/aide/application/fonctionnalites-fr.html
+-> Treat file: ./data/aide/application/mail_form.html
+-> Treat file: ./data/aide/application/mail_to_phil.rb
+-> Treat file: ./data/aide/application/overview-en.html
+-> Treat file: ./data/aide/application/overview-fr.html
+-> Treat file: ./data/aide/application/premiers-pas-en.html
+-> Treat file: ./data/aide/application/premiers-pas-fr.html
+-> Treat file: ./data/aide/application/raccourcis-en.html
+-> Treat file: ./data/aide/application/raccourcis-fr.html
+-> Treat file: ./data/aide/config-generale/definir-suite-harmonique-fr.html
+-> Treat file: ./data/aide/config-generale/ordre-exercices-fr.html
+-> Treat file: ./data/aide/config-generale/presentation-en.html
+-> Treat file: ./data/aide/config-generale/presentation-fr.html
+-> Treat file: ./data/aide/config-generale/sens-exercice-fr.html
+-> Treat file: ./data/aide/config-generale/suite-harmonique-fr.html
+-> Treat file: ./data/aide/dbe/presentation-en.html
+-> Treat file: ./data/aide/dbe/presentation-fr.html
+-> Treat file: ./data/aide/exercice/add_from_db-fr.html
+-> Treat file: ./data/aide/exercice/classement-en.html
+-> Treat file: ./data/aide/exercice/classement-fr.html
+-> Treat file: ./data/aide/exercice/confection_seance_travail.html
+-> Treat file: ./data/aide/exercice/creation-en.html
+-> Treat file: ./data/aide/exercice/creation-fr.html
+-> Treat file: ./data/aide/exercice/form/duree-en.html
+-> Treat file: ./data/aide/exercice/form/duree-fr.html
+-> Treat file: ./data/aide/exercice/form/suite_harmonique-en.html
+-> Treat file: ./data/aide/exercice/form/suite_harmonique-fr.html
+-> Treat file: ./data/aide/exercice/import-fr.html
+-> Treat file: ./data/aide/exercice/jouer_suite-fr.html
+-> Treat file: ./data/aide/exercice/prop/obligatory-en.html
+-> Treat file: ./data/aide/exercice/prop/obligatory-fr.html
+-> Treat file: ./data/aide/exercice/prop/symetric-en.html
+-> Treat file: ./data/aide/exercice/prop/symetric-fr.html
+-> Treat file: ./data/aide/exercice/prop/tone-en.html
+-> Treat file: ./data/aide/exercice/prop/tone-fr.html
+-> Treat file: ./data/aide/exercice/prop/type-en.html
+-> Treat file: ./data/aide/exercice/prop/type-fr.html
+-> Treat file: ./data/aide/exercice/prop/with_next-en.html
+-> Treat file: ./data/aide/exercice/prop/with_next-fr.html
+-> Treat file: ./data/aide/roadmap/creation-en.html
+-> Treat file: ./data/aide/roadmap/creation-fr.html
+-> Treat file: ./data/aide/roadmap/exemple-en.html
+-> Treat file: ./data/aide/roadmap/exemple.html
+-> Treat file: ./data/aide/roadmap/load-en.html
+-> Treat file: ./data/aide/roadmap/load-fr.html
+-> Treat file: ./data/aide/seance/confection-fr.html
+-> Treat file: ./data/aide/test/_READ_ME.md
+-> Treat file: ./data/aide/test/show.html
+-> Treat file: ./data/aide/test/un_texte.html
+-> Treat file: ./data/aide/user/choix_instrument-en.html
+-> Treat file: ./data/aide/user/choix_instrument-fr.html
+-> Treat file: ./data/aide/user/signin-en.html
+-> Treat file: ./data/aide/user/signin-fr.html
+-> Treat file: ./data/aide/user/signin_form.html
+-> Treat file: ./data/aide/user/signup-en.html
+-> Treat file: ./data/aide/user/signup-fr.html
+-> Treat file: ./data/aide/user/signup_form.html
